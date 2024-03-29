@@ -39,7 +39,7 @@ def streamlit_config():
     # title and position
     st.markdown(f'<h1 style="text-align: center;">AI-Powered Resume Analyzer and <br> LinkedIn Scraper with Selenium</h1>',
                 unsafe_allow_html=True)
-
+### scoping note - can remove this
 
 class resume_analyzer:
 
