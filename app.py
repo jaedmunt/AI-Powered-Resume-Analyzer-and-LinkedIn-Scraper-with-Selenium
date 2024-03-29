@@ -47,7 +47,7 @@ class resume_analyzer:
         # read pdf and it returns memory address
         pdf_reader = PdfReader(pdf)
 
-        # extrat text from each page separately
+        # extract text from each page separately
         text = ""
         for page in pdf_reader.pages:
             text += page.extract_text()
@@ -590,6 +590,7 @@ with st.sidebar:
 
     option = option_menu(menu_title='', options=['Summary', 'Strength', 'Weakness', 'Job Titles', 'Linkedin Jobs'],
                          icons=['house-fill', 'database-fill', 'pass-fill', 'list-ul', 'linkedin'])
+    
 
 
 
